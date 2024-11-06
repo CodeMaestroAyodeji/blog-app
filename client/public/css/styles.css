@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header, .site-footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.form-container {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.form-container label,
+.form-container input,
+.form-container textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.blog-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
